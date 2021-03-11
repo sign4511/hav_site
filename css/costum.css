@@ -1,10 +1,66 @@
+
+:root {
+    --primary: ;
+    --secondar:;
+  }
+*img{
+    max-width: 100%;
+}
+
+h1{
+    font-family: ff-cocon-pro;
+    font-size: 200px; 
+}
+
+h2{
+    font-family: ff-cocon-pro; 
+}
+h3{
+    font-family: museo-sans 700;
+    color:#60a6a6;
+    font-size: 30px;
+}
+
+p{
+    font-family: museo-sans;
+}
+
 .hero {
   background-image: url(/img/IMG_2921.JPEG);
   background-blend-mode: overlay;
   background-position: 100% 50%;
   height: calc(100vh - 56px);
   background-size: cover;
-}
-.davi-hero {
   background-color: var(--primary);
+  height: 60vh;
+  min-height: 300px;
 }
+
+.section{
+    background-color: #b8ccd9 ;
+    flood-opacity:50%;
+}
+
+.info{
+    background-image: url(/img/infog.png);
+    background-blend-mode: overlay;
+    background-position: 100% 50%;
+    background-size: cover;
+    background-color: var(--primary);
+}
+section ul li{
+    font-size: 50px;
+    list-style: none;
+    line-height: 100px;
+    color:white;
+    font-family: ff-cocon-pro;
+}
+
+.footer{
+    background-color: #222c40;
+}
+
+@media (min-width: 576px) {
+    .hero {
+        height: calc(100vh - 56px);
+    }
