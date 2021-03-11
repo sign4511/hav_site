@@ -1,0 +1,10 @@
+.hero {
+  background-image: url(/img/IMG_2921.JPEG);
+  background-blend-mode: overlay;
+  background-position: 100% 50%;
+  height: calc(100vh - 56px);
+  background-size: cover;
+}
+.davi-hero {
+  background-color: var(--primary);
+}
