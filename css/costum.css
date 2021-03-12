@@ -1,30 +1,35 @@
 
-:root {
-    --primary: ;
-    --secondar:;
-  }
-/* *img{
+
+*img{
     max-width: 100%;
-} */
+}
 
 .navbar{
 background-color: #141a26;
 }
+
 h1{
-    font-family: ff-cocon-pro;
+    font-family: ff-cocon-pro, sans-serif;
+    color: #FFF9F0;
+    text-shadow: 2px 2px #af95677c;
 }
 
 h2{
-    font-family: ff-cocon-pro; 
+    font-family: ff-cocon-pro, sans-serif; 
 }
+
 h3{
-    font-family: museo-sans 700;
+    font-family: museo-sans 700, sans-serif;
     color:#60a6a6;
     font-size: 30px;
 }
 
+.display-6{
+    color: #FFF9F0;
+}
+
 p{
-    font-family: museo-sans;
+    font-family: museo-sans, sans-serif;
 }
 
 .css_splash_video {
@@ -41,11 +46,11 @@ p{
 }
 
 section ul li{
-    font-size: 50px;
+    font-size: 40px;
     list-style: none;
     line-height: 100px;
-    color:white;
-    font-family: ff-cocon-pro;
+    color:#FFF9F0;
+    font-family: ff-cocon-pro, sans-serif;
 }
 
 .btn {
@@ -54,9 +59,9 @@ section ul li{
     background-color: #60a6a6;
     text-align: center;
     text-decoration: none;
-    font-family: museo-sans 300;
+    font-family: museo-sans 300, sans-serif;
     letter-spacing: 1px;
-    color:white;
+    color:#FFF9F0;
     cursor: pointer;
     margin: 0 1rem 1rem 0;
     box-shadow: 2px 5px 10px #888888;
@@ -64,9 +69,8 @@ section ul li{
     
   }
   button:hover {
-    color: #222c40;
-    background-color: #60a6a6;
-    opacity: 0.1;
+    color:#FFF9F0;
+    opacity: 0.8;
   }
  
 
@@ -76,5 +80,5 @@ section ul li{
 
 @media (min-width: 576px) {
     .css_splash_video {
-        height: calc(100vh - 56px);
+        height: calc(100vh - 180px);
     }
