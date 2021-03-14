@@ -14,6 +14,7 @@ h1 {
 
 h2 {
   font-family: ff-cocon-pro, sans-serif;
+  color: #141a26;
 }
 
 h3 {
@@ -90,7 +91,7 @@ button:hover {
 }
 
 .tang-img {
-  background-image: url(/img/IMG_2902.png);
+  background-image: url(/img/IMG_3094.JPEG);
   height: 300px;
   width: 300px;
   background-size: cover;
@@ -104,14 +105,14 @@ button:hover {
   clip-path: circle(50% at 50% 50%);
 }
 .run-img {
-  background-image: url(/img/run.png);
+  background-image: url(/img/runn.png);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .yoga-img {
-  background-image: url(/img/yoga.png);
+  background-image: url(/img/yoga1.png);
   height: 100px;
   width: 100px;
   background-size: cover;
@@ -134,7 +135,25 @@ footer ul {
 }
 
 .footer {
-  background-color: #222c40;
+  background-color: #141a26;
+}
+
+.pulse {
+  animation-name: pulse_kf;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pulse_kf {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
 }
 
 @media (min-width: 576px) {
@@ -153,17 +172,18 @@ footer ul {
     width: 400px;
   }
 }
-@media (min-width: 1200px) {
+
+@media (min-width: 1000px) {
   .bike-img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
   }
   .run-img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
   }
   .yoga-img {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
   }
 }
