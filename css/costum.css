@@ -1,7 +1,3 @@
-*img {
-  max-width: 100%;
-}
-
 .navbar {
   background-color: #141a26;
 }
@@ -69,13 +65,11 @@ p {
   color: #fff9f0;
   cursor: pointer;
   margin: 0 1rem 1rem 0;
-  box-shadow: 2px 2px 8px #60a6a6;
+  box-shadow: 0.5px 0.5px 2px #60a6a6;
   border: none;
 }
 button:hover {
-  background-color: #141a26;
-  color: #fff9f0;
-  opacity: 0.8;
+  background-color: #b8ccd9;
 }
 
 .liste {
@@ -89,7 +83,7 @@ button:hover {
   font-family: museo-sans, sans-serif;
 }
 
-.tang-img {
+.love-img {
   background-image: url(/img/love.png);
   height: 300px;
   width: 300px;
@@ -166,7 +160,7 @@ footer p {
   .liste {
     font-size: 30px;
   }
-  .tang-img {
+  .love-img {
     height: 400px;
     width: 400px;
   }
