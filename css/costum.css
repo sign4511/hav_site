@@ -25,12 +25,6 @@ h3 {
 ul li h2 {
   color: #141a26;
 }
-ul li h3 {
-  color: #141a26;
-  font-family: museo-sans, sans-serif;
-  font-weight: 300;
-  font-size: 25px;
-}
 
 .display-6 {
   color: #fff9f0;
@@ -55,12 +49,16 @@ p {
   background-color: #d9e5ec;
 }
 
+.section-3 {
+  background-color: #b8ccd9;
+}
+
 .info {
   background-image: url(/img/infog.png);
   background-position: 50%;
 }
 
-/* .btn {
+.btn {
   padding: 0.5rem;
   border-radius: 8px;
   background-color: #60a6a6;
@@ -75,9 +73,10 @@ p {
   border: none;
 }
 button:hover {
-  background-color: #fff9f0;
+  background-color: #141a26;
+  color: #fff9f0;
   opacity: 0.8;
-} */
+}
 
 .liste {
   padding: 0;
@@ -87,39 +86,39 @@ button:hover {
   flex-direction: column;
   list-style: none;
   color: #fff9f0;
-  font-family: ff-cocon-pro, sans-serif;
+  font-family: museo-sans, sans-serif;
 }
 
 .tang-img {
-  background-image: url(/img/IMG_3094.JPEG);
+  background-image: url(/img/love.png);
   height: 300px;
   width: 300px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .vand-img {
-  background-image: url(/img/IMG_3020.png);
+  background-image: url(/img/vand.png);
   height: 300px;
   width: 300px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .run-img {
-  background-image: url(/img/runn.png);
+  background-image: url(/img/run.png);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .yoga-img {
-  background-image: url(/img/yoga1.png);
+  background-image: url(/img/yoga.png);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .bike-img {
-  background-image: url(/img/bike.png);
+  background-image: url(/img/bike1.png);
   height: 100px;
   width: 100px;
   background-size: cover;
@@ -132,6 +131,9 @@ footer img {
 footer ul {
   list-style: none;
   padding: 0;
+}
+footer p {
+  color: #fff9f0;
 }
 
 .footer {
