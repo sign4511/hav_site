@@ -83,35 +83,35 @@ button:hover {
   font-family: museo-sans, sans-serif;
 }
 
-.love-img {
+.love {
   background-image: url(img/love.png);
   height: 300px;
   width: 300px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
-.vand-img {
+.vand {
   background-image: url(img/vand.png);
   height: 300px;
   width: 300px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
-.run-img {
+.run {
   background-image: url(img/run.png);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
-.yoga-img {
+.yoga {
   background-image: url(img/yoga.png);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
-.bike-img {
+.bike {
   background-image: url(img/bike1.png);
   height: 100px;
   width: 100px;
@@ -160,26 +160,26 @@ footer p {
   .liste {
     font-size: 30px;
   }
-  .love-img {
+  .love {
     height: 400px;
     width: 400px;
   }
-  .vand-img {
+  .vand {
     height: 400px;
     width: 400px;
   }
 }
 
 @media (min-width: 1000px) {
-  .bike-img {
+  .bike {
     height: 200px;
     width: 200px;
   }
-  .run-img {
+  .run {
     height: 200px;
     width: 200px;
   }
-  .yoga-img {
+  .yoga {
     height: 200px;
     width: 200px;
   }
