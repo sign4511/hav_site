@@ -50,7 +50,7 @@ p {
 }
 
 .info {
-  background-image: url(img/infog.png);
+  background-image: url(../img/infog.png);
   background-position: 50%;
 }
 
@@ -84,35 +84,35 @@ button:hover {
 }
 
 .love {
-  background-image: url(img/love.png);
+  background-image: url(../img/love.png);
   height: 300px;
   width: 300px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .vand {
-  background-image: url(img/vand.png);
+  background-image: url(../img/vand.png);
   height: 300px;
   width: 300px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .run {
-  background-image: url(img/run.png);
+  background-image: url(../img/run.png);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .yoga {
-  background-image: url(img/yoga.png);
+  background-image: url(../img/yoga.png);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .bike {
-  background-image: url(img/bike1.png);
+  background-image: url(../img/bike1.png);
   height: 100px;
   width: 100px;
   background-size: cover;
