@@ -14,9 +14,10 @@ h2 {
 }
 
 h3 {
-  font-family: museo-sans 700, sans-serif;
+  font-family: museo-sans, sans-serif;
   color: #60a6a6;
   font-size: 30px;
+  font-weight: 700;
 }
 ul li h2 {
   color: #141a26;
@@ -60,7 +61,7 @@ p {
   background-color: #60a6a6;
   text-align: center;
   text-decoration: none;
-  font-family: museo-sans 300, sans-serif;
+  font-family: museo-sans, sans-serif;
   letter-spacing: 1px;
   color: #fff9f0;
   cursor: pointer;
@@ -117,6 +118,11 @@ button:hover {
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
+}
+
+.sp-py-10 {
+  padding-bottom: 6rem;
+  padding-top: 6rem;
 }
 
 footer img {
