@@ -29,6 +29,7 @@ ul li h2 {
 
 p {
   font-family: museo-sans, sans-serif;
+  max-width: 50ch;
 }
 
 .css_splash_video {
@@ -85,18 +86,10 @@ button:hover {
 }
 
 .love {
-  background-image: url(../img/love.png);
-  height: 300px;
-  width: 300px;
-  background-size: cover;
-  clip-path: circle(50% at 50% 50%);
+  clip-path: circle(40% at 50% 50%);
 }
 .vand {
-  background-image: url(../img/vand.png);
-  height: 300px;
-  width: 300px;
-  background-size: cover;
-  clip-path: circle(50% at 50% 50%);
+  clip-path: circle(40% at 50% 50%);
 }
 .run {
   background-image: url(../img/run.png);
@@ -135,10 +128,15 @@ footer ul {
 footer p {
   color: #fff9f0;
   text-align: center;
+  max-width: none;
 }
 
 .footer {
   background-color: #141a26;
+}
+
+#boost p {
+  max-width: none;
 }
 
 .pulse {
@@ -165,14 +163,6 @@ footer p {
   }
   .liste {
     font-size: 30px;
-  }
-  .love {
-    height: 400px;
-    width: 400px;
-  }
-  .vand {
-    height: 400px;
-    width: 400px;
   }
 }
 
