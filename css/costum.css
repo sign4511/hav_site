@@ -35,6 +35,10 @@ p {
 .css_splash_video {
   height: 70vh;
   object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.overlay {
+  background-color: #b8ccd9;
 }
 
 .signe-absolute {
