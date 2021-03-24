@@ -52,7 +52,7 @@ p {
 }
 
 .info {
-  background-image: url(../img/infog.png);
+  background-image: url(../img/infog.webp);
   background-position: 50%;
 }
 
@@ -92,21 +92,21 @@ button:hover {
   clip-path: circle(40% at 50% 50%);
 }
 .run {
-  background-image: url(../img/run.png);
+  background-image: url(../img/run.webp);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .yoga {
-  background-image: url(../img/yoga.png);
+  background-image: url(../img/yoga.webp);
   height: 100px;
   width: 100px;
   background-size: cover;
   clip-path: circle(50% at 50% 50%);
 }
 .bike {
-  background-image: url(../img/bike1.png);
+  background-image: url(../img/bike1.webp);
   height: 100px;
   width: 100px;
   background-size: cover;
